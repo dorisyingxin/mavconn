@@ -2,7 +2,10 @@ INCLUDE(FindPackageHandleStandardArgs)
 INCLUDE(HandleLibraryTypes)
 
 SET(MAVLINK_IncludeSearchPaths
-  ./../mavlink/build/include/v1.0/
+  /home/yingxin/workspace/src/Firmware/mavlink/include/mavlink/v1.0/pixhawk
+/home/yingxin/workspace/src/Firmware/mavlink/include/mavlink/v1.0
+/home/yingxin/workspace/src/Firmware/mavlink/include/mavlink
+/home/yingxin/workspace/src/Firmware/mavlink/include
 )
 
 FIND_PATH(MAVLINK_INCLUDE_DIR

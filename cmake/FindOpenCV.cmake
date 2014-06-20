@@ -3,8 +3,8 @@ INCLUDE(HandleLibraryTypes)
 
 SET(OpenCV_IncludeSearchPaths
   /usr/include/
-  /usr/include/opencv-2.3.1/
   /usr/local/include/
+  /usr/local/include/opencv/
   /opt/local/include/
 )
 

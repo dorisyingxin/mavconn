@@ -87,6 +87,7 @@ INCLUDE_DIRECTORIES(
   interface/shared_mem
   external
   external/lcm # MIT's LCM library http://code.google.com/p/lcm/
+ # vision/colorDetect	#Vision for OutbackJoe
 )
 
 # External libraries
@@ -99,4 +100,4 @@ ADD_SUBDIRECTORY(planning)
 ADD_SUBDIRECTORY(interface)
 ADD_SUBDIRECTORY(calibration)
 ADD_SUBDIRECTORY(examples)
-
+ADD_SUBDIRECTORY(vision)
